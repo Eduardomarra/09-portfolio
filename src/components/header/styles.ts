@@ -2,12 +2,6 @@ import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
     ${({ theme}) => css`
-        width: 100vw;
-    `}
-`
-
-export const Content = styled.div`
-    ${({ theme}) => css`
         max-width: 1090px;
         margin: 0 auto;
         padding: 4rem 1rem;
