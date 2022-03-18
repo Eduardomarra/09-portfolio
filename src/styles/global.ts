@@ -9,13 +9,12 @@ const GlobalStyles = createGlobalStyle`
     ${({ theme }) => css`
         html {
             font-size: 62.5%;
+            scroll-behavior: smooth;
         }
         body {
             background: ${theme.colors.dark};
             font-family: ${theme.font.family};
             font-size: ${theme.font.sizes.medium};
-            width: 100vw;
-            margin: 0 auto;
         }
         button {
             cursor: pointer;

@@ -8,10 +8,10 @@ export function Header() {
                 <h1>Portfólio</h1>
                 <nav>
                     <Menu>
-                        <li><a href='/'>Sobre Mim</a></li>
-                        <li><a href='/'>Serviços</a></li>
-                        <li><a href='/'>Minhas Skills</a></li>
-                        <li><a href='/'>Projetos</a></li>
+                        <li><a href='#sobreMim'>Sobre Mim</a></li>
+                        <li><a href='#servicos'>Serviços</a></li>
+                        <li><a href='#skills'>Minhas Skills</a></li>
+                        <li><a href='#projetos'>Projetos</a></li>
                     </Menu>
                 </nav>
           </Container>
