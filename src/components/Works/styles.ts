@@ -4,7 +4,7 @@ import styled, { css } from 'styled-components'
 export const Container = styled.div`
     ${({ theme}) => css`
         max-width: 1090px;
-        margin: 15rem auto;
+        margin: 10rem auto;
 
         h1 {
             text-align: center;
