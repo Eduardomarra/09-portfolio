@@ -8,32 +8,19 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         animation: ${animatedHeader} 2s;
-    `}
-`
 
-export const Menu = styled.ul`
-    ${({ theme}) => css`
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 5rem;
-
-        a {
-            font-weight: 400;
-            font-size: ${theme.font.sizes.medium};
-            line-height: ${theme.font.sizes.xlarge};
-            color: ${theme.colors.white};
-            padding: 1rem 0;
-            transition: all 0.3s;
-
-            &:hover {
-                color: ${theme.colors.greenLight};
+        @media screen and (min-width:  701px) {
+            .mobile {
+                display: none;
             }
         }
-        a.active {
-            color: ${theme.colors.greenLight};
+        @media screen and (max-width:  700px) {
+            .desktop {
+                display: none;
+            }
         }
     `}
 `
