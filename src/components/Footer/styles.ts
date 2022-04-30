@@ -29,5 +29,21 @@ export const Container = styled.div`
                     cursor: pointer;
                 }
             }
+        }
+
+        @media screen and (max-width: 1024px) {
+            margin: 0 ${theme.spacings.xsmall};
+        }
+        @media screen and (max-width: 600px) {
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            p {
+                & + p {
+                    margin-top: 1rem;
+                }
+        }
+        }
+        @media screen and (max-width: 1024px) {}
     `}
 `

@@ -23,9 +23,10 @@ export function About() {
                             <div className="bg-icon">
                                 <FiSmile />
                             </div>
-                            <h3>Meu nome</h3>
+                            <h3 className="mobile">Meu nome</h3>
                             <h4>Eduardo Marra</h4>
                         </div>
+
                         <div>
                             <a  href="https://github.com/Eduardomarra"
                                 target="_blank"
@@ -38,6 +39,7 @@ export function About() {
                             <h3>GitHub</h3>
                             <h4>github.com/Eduardomarra</h4>
                         </div>
+
                         <div>
                             <a  href="https://www.linkedin.com/in/eduardomarra/"
                                 target="_blank"
@@ -50,6 +52,7 @@ export function About() {
                             <h3>Linkedin</h3>
                             <h4>linkedin/in/eduardomarra</h4>
                         </div>
+
                         <div>
                             <a  href="mailTo:eduardomarra@gmail.com"
                                 target="_blank"
@@ -62,6 +65,7 @@ export function About() {
                             <h3>E-mail</h3>
                             <h4>eduardomarra@gmail.com</h4>
                         </div>
+
                         <div>
                             <a  href="https://api.whatsapp.com/send?phone=61993707468"
                                 target="_blank"

@@ -22,6 +22,9 @@ export const Content  =styled.div`
             text-align: center;
             margin-top: ${theme.spacings.xlarge};
         }
+        @media screen and (max-width:  1024px) {
+            padding: 0 ${theme.spacings.xsmall};
+        }
     `}
 `
 export const Icons  =styled.div`
@@ -69,6 +72,20 @@ export const Icons  =styled.div`
                 line-height: ${theme.font.sizes.large};
                 color: ${theme.colors.gray};
                 margin-bottom: ${theme.spacings.xxlarge};
+            }
+        }
+        @media screen and (min-width: 601px) and (max-width:  1024px) {
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+        }
+        @media screen and (max-width:  600px) {
+            display: grid;
+            grid-template-columns: repeat(2, 140px);
+
+            div {
+                h4 {
+                    opacity: 0;
+                }
             }
         }
 

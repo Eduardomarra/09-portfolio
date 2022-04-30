@@ -35,5 +35,11 @@ export const Card = styled.div`
                 color: ${theme.colors.greenLight};
             }
         }
+
+        @media screen and (max-width: 600px) {
+            div {
+                width: 100%;
+            }
+        }
     `}
 `

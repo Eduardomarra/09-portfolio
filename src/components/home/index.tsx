@@ -2,6 +2,7 @@ import pictureHome from '../../assets/pictureHome.svg'
 import { Container, Apresentation, Button, Picture } from './styles'
 
 export function Home(){
+
     return (
         <>
             <Container>
@@ -11,8 +12,11 @@ export function Home(){
                         Eduardo Marra
                     </h1>
                     <h4>Desenvolvedor Front-End | React - TypeScript</h4>
+
                     <Button>
-                        <button type="submit">Download CV</button>
+                        <button type="submit">
+                            Download CV
+                        </button>
                         <button type="submit">Entre em contato</button>
                     </Button>
                 </Apresentation>
